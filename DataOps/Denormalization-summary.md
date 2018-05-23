@@ -26,3 +26,14 @@ What to consider?
 ![](criteria.png)
 
 ![](other-criteria.png)
+
+
+### Update Anomaly problems:
+
+1. Can be solved using triggers, batch reconcilation, application logic.
+2. Triggers => Best solution, costly in terms of performance.
+3. Application logic in each application => ensure changes are atomic.
+4. Batch reconcilation => can run at appropriate intervals to bring data back into aggreement.
+
+
+### Minimize downsides / deleterious effects of denormalization:
