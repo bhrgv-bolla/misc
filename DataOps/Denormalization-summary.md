@@ -35,5 +35,14 @@ What to consider?
 3. Application logic in each application => ensure changes are atomic.
 4. Batch reconcilation => can run at appropriate intervals to bring data back into aggreement.
 
+### Denormalization Strategies:
+![](strategies.png)
 
-### Minimize downsides / deleterious effects of denormalization:
+
+### Justification of denormalization:
+
+#### SQL AND RELATIONAL ALGEBRA:
+![](sql.png)
+
+#### Query Trees:
+![](query-trees.png)
